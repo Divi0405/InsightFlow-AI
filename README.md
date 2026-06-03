@@ -1,16 +1,29 @@
 # InsightFlow AI
 
-AI-Powered Business Intelligence and Analytics Platform built using Streamlit, Pandas, and Plotly.
+Smart Business Intelligence Dashboard built using Python, Streamlit, Pandas, Plotly, and Seaborn.
+
+## Overview
+
+InsightFlow AI is a dynamic analytics platform that allows users to upload CSV datasets, generate business insights, visualize trends, and interactively explore data through dashboards and charts.
+
+The system automatically detects dataset structure, creates dynamic filters, generates KPI metrics, and provides intelligent query-based analytics.
+
+---
 
 ## Features
 
-* CSV File Upload
-* Dataset Preview
-* Missing Value Detection
-* Data Type Analysis
+* Dynamic CSV Upload
+* Automatic Column Detection
+* Interactive Sidebar Filters
+* KPI Dashboard
 * Smart Insights Generation
-* Interactive Charts
-* Dynamic Visualization Engine
+* Correlation Heatmap
+* Dynamic Chart Generator
+* Auto Chart Recommendation
+* Query-Based Analytics Assistant
+* Download Filtered CSV
+
+---
 
 ## Tech Stack
 
@@ -18,6 +31,11 @@ AI-Powered Business Intelligence and Analytics Platform built using Streamlit, P
 * Streamlit
 * Pandas
 * Plotly
+* Seaborn
+* Matplotlib
+* Git & GitHub
+
+---
 
 ## Project Structure
 
@@ -27,12 +45,15 @@ InsightFlow-AI/
 ├── app.py
 ├── README.md
 ├── requirements.txt
+├── LICENSE
 │
 ├── analytics/
 ├── visualization/
 ├── utils/
 └── data/
 ```
+
+---
 
 ## Installation
 
@@ -54,9 +75,7 @@ Create virtual environment:
 python -m venv venv
 ```
 
-Activate environment:
-
-### Windows
+Activate environment (Windows):
 
 ```bash
 venv\Scripts\activate
@@ -68,20 +87,47 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the project:
+Run the application:
 
 ```bash
 python -m streamlit run app.py
 ```
 
+---
+
+## How It Works
+
+1. User uploads CSV dataset
+2. Pandas processes dataset
+3. System automatically detects categorical and numeric columns
+4. Dynamic filters are generated
+5. KPI metrics are calculated
+6. Interactive visualizations are created
+7. Smart insights are generated
+8. Query-based analytics assistant answers business questions
+
+---
+
+## Example Use Cases
+
+* Sales Analytics
+* Revenue Analysis
+* Business KPI Monitoring
+* Product Performance Analysis
+* HR Analytics
+* Data Visualization
+
+---
+
 ## Future Improvements
 
-* AI-powered querying
-* Natural language analytics
-* Automated dashboard generation
-* FastAPI backend
+* Real AI integration using LLM APIs
+* Predictive analytics and forecasting
+* Dashboard export functionality
 * Authentication system
 * Cloud deployment
+
+---
 
 ## Author
 
